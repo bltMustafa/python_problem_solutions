@@ -37,7 +37,7 @@ print("Products with discounted prices:", discounted_products)
 # Create a list of product names with prices over $50.
 # Example output: ['Laptop', 'Smartphone', 'Headphones', 'Shoes']
 
-over_price = [product["name"] for product in products if product['price']  > 50 ]
+over_price = [product["name"] for product in products if product['price'] > 50]
 print(over_price)
 
 # Task 4
